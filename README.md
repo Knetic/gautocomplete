@@ -1,12 +1,16 @@
 ## What is it?
 
-A script to convert a standard select element into a control that the user can type text into, and receive automatic suggestions for what the rest of their text could be. And which allows you to keep using the same element ID 
+A script to convert a standard select element into a control that the user can type text into, and receive automatic suggestions for what the rest of their text could be. And which allows you to keep using the same element ID and event handlers.
 
 ## Why not jquery-ui-autocomplete?
 
 jquery-ui-autocomplete is a fantastic plugin, and is very good for small lists of items, especially if the items are not similar. Unfortunately, because of how it operates, scaling up the number of items it can handle is difficult. Every keypress has the potential to create a DOM element for every item in your list. It doesn't matter when you are only dealing with a hundred entries or so, but when trying to use it for thousands of items, it can cause slowdowns or crashes on your page.
 
-This script provides similar functionality, except that it will only ever populate those DOM elements if the user specifically looks for them.
+Worse, jquery-ui-autocomplete doesn't actually autofill, only gives suggestions. And it doesn't have an easy way for a user to drop the list down to view all items (similar to a select).
+
+This script provides that functionality, without the performance pitfalls. This is built for a specific use case, and is not intended to replace jquery-ui-autocomplete in all circumstances.
+
+Want to see a [live demo](http://glester.com/gautocomplete) that highlights some of these behaviors?
 
 ## How do I use it?
 
