@@ -40,3 +40,7 @@ There are currently no optional parameters for this script. It fills a specific 
 This script is [MIT licensed](http://opensource.org/licenses/MIT) That means you're free to download, use, and abuse the script in any application (commercial, personal, or otherwise). 
 
 That said, if you'd like to distribute modified copies of the script, please contact me. Very likely, I'll incorporate your patch into the main branch, and anyone can benefit from your work.
+
+##Activity
+
+If this repository hasn't been updated in a while, it's probably because I don't have any outstanding issues to work on - it's not because I've abandoned the project. If you have questions, issues, or patches; I'm completely open to pull requests, issues opened on github, or emails from out of the blue.
